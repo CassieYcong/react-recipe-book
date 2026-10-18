@@ -7,10 +7,10 @@ type AuthFormHeaderProps = {
 export function AuthFormHeader({ title, description }: AuthFormHeaderProps) {
   return (
     <header className="text-center">
-      <h2 className="text-xl font-semibold tracking-tight text-emerald-950">
+      <h2 className="text-xl font-semibold tracking-tight text-plum">
         {title}
       </h2>
-      <p className="mt-2 text-sm leading-relaxed text-emerald-950/65">
+      <p className="mt-2 text-sm leading-relaxed text-plum/65">
         {description}
       </p>
     </header>

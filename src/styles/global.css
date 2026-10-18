@@ -1,8 +1,18 @@
 @import "tailwindcss";
 
+/* Exotic Street Food Festival Delight palette.
+   Each color becomes a Tailwind utility: bg-plum, text-chili, border-flame/20 ... */
+@theme {
+  --color-flame: #ff5733;
+  --color-sun: #ffc300;
+  --color-chili: #c70039;
+  --color-plum: #581845;
+  --color-lime: #daf7a6;
+}
+
 body {
   margin: 0;
   min-width: 320px;
-  background: #e7eee2;
-  color: #143b30;
+  background: #f6fce8; /* very light lime tint */
+  color: var(--color-plum);
 }

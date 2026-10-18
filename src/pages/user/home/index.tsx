@@ -27,7 +27,7 @@ export default function HomePage() {
         </div>
       </PageHeader>
 
-      {error && <p role="alert" className="mb-6 text-rose-700">{error}</p>}
+      {error && <p role="alert" className="mb-6 text-chili">{error}</p>}
 
       <RecipeCollection />
     </Section>
